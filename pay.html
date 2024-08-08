@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran</title>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+    <header>
+        <h1><a href="topup.html">Metode Pembayaran</h1></a>
+    </header>
+    <main>
+        <section id="pembayaran">
+            <h2>Pilih Metode Pembayaran</h2>
+            <div class="payment-options">
+                <div class="payment-option">
+                    <img src="gopay.png" alt="GoPay">
+                    <button onclick="bayarDenganGoPay()">Bayar dengan GoPay</button>
+                </div>
+                <div class="payment-option">
+                    <img src="dana.png" alt="Dana">
+                    <button onclick="bayarDenganDana()">Bayar dengan Dana</button>
+                </div>
+                <div class="payment-option">
+                    <img src="qris.png" alt="QRIS">
+                    <button onclick="bayarDenganQRIS()">Bayar dengan QRIS</button>
+                </div>
+                <div class="payment-option">
+                    <img src="bank.png" alt="Bank Transfer">
+                    <button onclick="bayarDenganBank()">Bayar dengan Bank Transfer</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pembayaran. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function bayarDenganGoPay() {
+            alert("Anda memilih pembayaran dengan GoPay.");
+            // Tambahkan logika pembayaran GoPay di sini
+        }
+
+        function bayarDenganDana() {
+            alert("Anda memilih pembayaran dengan Dana.");
+            // Tambahkan logika pembayaran Dana di sini
+        }
+
+        function bayarDenganQRIS() {
+            alert("Anda memilih pembayaran dengan QRIS.");
+            // Tambahkan logika pembayaran QRIS di sini
+        }
+
+        function bayarDenganBank() {
+            alert("Anda memilih pembayaran dengan Bank Transfer.");
+            // Tambahkan logika pembayaran Bank Transfer di sini
+        }
+    </script>
+</body>
+</html>

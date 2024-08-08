@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFN STORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="toko.html">NFN STORE</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="beranda.html">Beranda</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome To NFN STORE</h2>
+            <p>Disini kalian bisa top up game mulai dari Mobile Legends Bang-Bang, Honor Of Kings, Solo Leveling Arise</p>
+        </section>
+        <section id="topup-form">
+            <h2>Silahkan</h2>
+            <form id="topup" action="topup.html" method="GET">
+                <label for="username">Masukkan Nickname:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="id">Masukkan Id:</label>
+                <h6>untuk melihat idmu, silahkan klik menu profil dibagian <p> kiri atas pada menu game. Id akan terlihat dibagian <p> bawah Nama karakter game Anda </h6>
+                <input type="id" id="id" required>
+
+                <label for="id">Masukkan Zona Id:</label>
+                <input type="id" id="id" required>
+
+                <label for="game">Game:</label>
+                <select id="game" name="game">
+                    <option value="game1">Mobile Legends Bang-Bang</option>
+                    <option value="game2">Honor Of Kings</option>
+                    <option value="game3">Solo Leveling Arise</option>
+                </select>
+                         
+                <button type="submit">Selanjutnya</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Top Up Game. All rights reserved.</p>
+    </footer>
+</body>
+</html>
